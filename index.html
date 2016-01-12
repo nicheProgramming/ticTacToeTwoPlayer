@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script src="test.js"></script>
+</head>
+
+<body>
+    <div id="bigBox">
+        <div id="box1" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box2" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box3" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box4" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box5" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box6" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box7" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box8" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+        <div id="box9" class="yes" onClick="turnCheck(this.id,this.className);"></div>
+    </div>
+    <button onClick="clearBoard();">Restart Game and Update Score</button>
+    <div id="turnBox">
+        <b><u>Turn</u></b>
+        <div id="turnText"></div>
+    </div>
+    <div id="scoreBox">
+        <div id="xText"> <div id="p1n"></div>
+            <div id="xBox">0</div>
+        </div>
+        <div id="yText"> <div id="p2n"></div>
+            <div id="yBox">0</div>
+        </div>
+    </div>
+</body>
+</html>
