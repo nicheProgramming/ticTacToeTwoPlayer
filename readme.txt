@@ -1,2 +1,2 @@
-If you make any changes, please put a comment
-with them explaining what they SHOULD do.
+A simple two player tic tac toe game created for a programming class.
+Local multiplayer only.
